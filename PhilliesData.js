@@ -31,6 +31,10 @@ request("https://questionnaire-148920.appspot.com/swe/data.html",(error, respons
             //ideally here he would have an array to work with which would then be able to decipher 
             //averages with.  Still a work in progress as the above attempt is not formatting the data
             //correctly.
+
+            //the concept for this scraping idea was taken from https://www.analyticsvidhya.com/blog/2020/10/web-scraping-using-node-js/ 
+            //initially I tried scraping via react, but was blocked by the CORS policy and decided this would only
+            //work if done from the backend.
             console.log(salaryArray)
 
           
